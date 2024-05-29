@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "public": "out",
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/clases",
+        "destination": "/clases.html"
+      },
+      {
+        "source": "/eventos",
+        "destination": "/eventos.html"
+      },
+      {
+        "source": "/tratamientos",
+        "destination": "/tratamientos.html"
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
