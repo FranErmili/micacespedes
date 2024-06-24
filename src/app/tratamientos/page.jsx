@@ -21,7 +21,7 @@ export default function TratamientosPage() {
     return (
         <>
             <Hero {...heroProps}></Hero>
-            <div className="relative  bg-white px-6 pb-20 pt-16 lg:px-8 lg:pb-28 lg:pt-24">
+            <div className="relative bg-white px-6 pb-20 pt-16 lg:px-8 lg:pb-28 lg:pt-24">
                 <div className="absolute inset-0">
                     <div className="h-1/3 sm:h-2/3" />
                 </div>

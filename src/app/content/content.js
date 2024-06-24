@@ -5,7 +5,7 @@ export const LogoData = {
 
 export const NavigationData = [
   { name: 'Inicio', href: '/' },
-  { name: 'Yoga', href: '/yoga' },
+  { name: 'Clases', href: '/clases' },
   { name: 'Eventos', href: '/eventos' },
   { name: 'Tratamientos', href: '/tratamientos' },
 ];
@@ -13,28 +13,27 @@ export const NavigationData = [
 export const HeroContent = {
   HomeHeroContent: {
     title: 'MOVIMIENTO CONSCIENTE',
-    description: 'Descubrí tu mundo interno y externo ',
     src: '/img/hero-home.jpeg',
-    alt: 'Descubre el Camino hacia el Bienestar Integral',
+    alt: 'Movimientos Consciente. Descubre tu mundo intertno y externo',
   },
 
   ClasesHeroContent: {
-    title: 'La transformación es parte de tu día',
+    title: '"Quien no se mueve no conoce sus cadenas"',
     description: 'Mejora todos los aspectos de tu vida trabajando tu bienestar diariamente.',
     src: '/img/hero-clases.jpeg',
     alt: 'Clases de yoga: La transformación es parte de tu día',
   },
 
   EventosHeroContent: {
-    title: 'Pies para que quiero, si tengo alas para volar',
+    title: '"Pies para que quiero, si tengo alas para volar"',
     description: 'Experiencias Única de Conexión y Crecimiento Espiritual',
     src: '/img/hero-eventos.jpeg',
     alt: 'Eventos de yoga: Experiencias Única de Conexión y Crecimiento Espiritual',
   },
 
   TratamientosHeroContent: {
-    title: 'Tus manos te sanaran y sanaran',
-    description: 'Experiencias Única de Conexión y Crecimiento Espiritual',
+    title: '"Quien mira hacia afuera sueña, quien mira hacia dentro despierta"',
+    description: '',
     src: '/img/hero-tratamientos.jpeg',
     alt: 'Eventos de yoga: Experiencias Única de Conexión y Crecimiento Espiritual',
   }
@@ -45,43 +44,43 @@ export const AboutData = {
   alt: 'Micaela Cespedes',
   title: 'Soy Micaela Céspedes',
   p1: 'Instructora de Yoga, fisioterapeuta, acupunturista y productora de eventos. Estudiar y aprender me nutre el alma, así que esta lista se seguirá extendiendo. Busco siempre desarrollar mi creatividad y estar al servicio de las personas.',
-  p2: 'Estoy muy involucrada con el camino del movimiento consciente desde pequeña, pase por  danzas, deportes, me involucre muchísimo con el hockey hasta poder jugar en un nivel internacional, esto me ayudo a tener un autoconocimiento corporal.',
-  p3: 'A mis 19 años comencé a cuestionar normalidades y quise cruzar a ver que había del otro lado del valle conocido. Allí apareció la practica del Yoga para darle sentido a todo eso que sentía dentro. Invito a todas las personas a introducirse en esta práctica.',
+  p2: 'Estoy muy involucrada con el camino del movimiento consciente desde pequeña, pase por danzas, deportes, me involucre muchísimo con el hockey esto me ayudo a tener un gran autoconocimiento corporal.',
+  p3: 'A mis 19 años comencé a cuestionar todo lo conocido y quise cruzar a ver que había del otro lado del valle conocido. Allí apareció la practica del Yoga para darle sentido a todo eso que sentía dentro. Invito a todas las personas a introducirse en esta práctica que de una u otra manera te transforma.',
 };
 
 export const SectionsData = {
-  Clases:{
+  Clases: {
     name: 'Clases',
     src: '/img/section-clases.JPG',
     alt: 'Nuestras clases',
     description: 'Sumérgete en nuestras clases de yoga, diseñadas para adaptarse a todos los niveles y necesidades, desde principiantes hasta yoguis avanzados. Cada sesión es cuidadosamente diseñada para llevarte a un estado de calma y renovación, liberando el estrés y la tensión acumulada.',
-    href: '/yoga',
-    icon:'/icon/clases-icon.svg'
+    href: '/clases',
+    icon: '/icon/clases-icon.svg'
   },
   Eventos: {
     name: 'Eventos',
     src: '/img/section-eventos.jpeg',
     alt: 'Nuestros eventos',
-    description: 'No te pierdas nuestros emocionantes eventos y encuentros, diseñados para nutrir tu alma y expandir tu conciencia. Desde retiros de yoga hasta talleres de crecimiento personal, tenemos algo para todos los que buscan profundizar en su práctica y conectarse con una comunidad acogedora y de mentalidad afín.',
+    description: 'Podes ser parte de nuestros emocionantes eventos y encuentros, diseñados para nutrir tu alma y expandir tu conciencia. Desde retiros de yoga hasta talleres de conocimiento personal, encender tu creatividad, entregarte a la vida y disfrutar en comunidad. Diferentes alternativas para que encuentres lo que te gusta.',
     href: '/eventos',
-    icon:'/icon/eventos-icon.svg'
+    icon: '/icon/eventos-icon.svg'
   },
   Tratamientos: {
     name: 'Tratamientos',
     src: '/img/section-tratamientos.jpeg',
     alt: 'Nuestros Tratamientos',
-    description: 'Ofrecemos una amplia gama de servicios individuales de sanación y bienestar, incluyendo terapias holísticas, consultas de nutrición y sesiones de meditación y mindfulness. Nuestros terapeutas altamente capacitados trabajarán contigo para encontrar el camino hacia tu propio crecimiento personal y bienestar integral.',
-    href:'/tratamientos',
-    icon:'/icon/tratamientos-icon.svg'
+    description: 'La conciencia de integración y presencia, las sesiones son individuales buscando sanación y bienestar, incluyendo terapias holísticas, de diversas terapias y profesionales. Es un acompañamiento para encontrar el camino hacia tu propio crecimiento personal y bienestar integral.',
+    href: '/tratamientos',
+    icon: '/icon/tratamientos-icon.svg'
   },
 };
 
 export const HomeVideoData = {
-  src: 'https://www.youtube.com/embed/_EVi8pJq8Ss?si=JdjKasNrNlHhwatQ',
-  alt: 'Mira la clase gratuita',
-  title: 'Descubre el Poder Transformador del Yoga',
-  description: 'Mira esta charla gratuita y explora los beneficios del yoga para tu cuerpo, mente y espíritu.',
-  destacado:'Charla gratuita'
+  src: 'https://www.youtube.com/embed/Yw29ziQNTpA?si=3g9jXYBmUZTOa5RM',
+  alt: 'Conoce el movimiento mediante una clase gratuita',
+  title: 'Conoce el movimiento mediante una clase gratuita',
+  description: '',
+  destacado: 'Charla gratuita'
 }
 
 export const HomeBannerData = {
@@ -90,13 +89,13 @@ export const HomeBannerData = {
   title: 'Contactame si tenes dudas',
   description: 'Comenzá a activar tu bienestar. ',
   buttonText: 'Hablemos por WhatsApp',
-  href:'',
+  href: '',
 }
 
 export const PageContent = {
   ClasesContent: {
-    title: 'Nuestras clases',
-    subtitle: 'A cualquier hora y en cualquier lugar. Mirá nuestras clases en vivo',
+    title: 'Prácticas conscientes',
+    subtitle: 'A cualquier hora y en cualquier lugar podes realizar las prácticas grabadas. Pack de clases grabadas enfocadas en la consciencia del movimiento y la respiración, buscando la fluidez en nuestros tres cuerpos físico, mental y espiritual. Es un material que llega para que uses cuando sientas sin fecha de caducidad.',
   },
   EventosContent: {
     title: 'Nuestros eventos',
@@ -197,8 +196,8 @@ export const ItemContent = {
     {
       id: '7',
       title: 'Tratamientos',
-      destacado:'Rehabilitación y sanación',
-      tecnicas:["Fisioterapia", "Acupuntura","Terapia Manual", "Ejercicios terapéuticos", "Plan de tratamientos"],
+      destacado: 'Rehabilitación y sanación',
+      tecnicas: ["Fisioterapia", "Acupuntura", "Terapia Manual", "Ejercicios terapéuticos", "Plan de tratamientos"],
       description: {
         p1: 'En los tratamientos que ofrezco buscamos acercarnos a la raíz del conflicto, seleccionando las mejores técnicas para cada tratamiento, planteamos objetivos, seleccionamos el abordaje y aprendemos de las situaciones. ',
         p2: 'En este proceso hacemos una evaluación y selección de diferentes técnicas para cumplir con el objetivo planteado',
@@ -212,7 +211,7 @@ export const ItemContent = {
     {
       id: '8',
       title: 'Sesiones individuales 1:1',
-      destacado:'Autoconocimiento y bienestar',
+      destacado: 'Autoconocimiento y bienestar',
       description: {
         p1: 'Estos acompañamientos son individuales, pueden ser presenciales o virtuales, a domicilio o en consultorio.',
         p2: 'Las sesiones son 1 a 1 creando un espacio de calma y presencia.',
@@ -225,7 +224,7 @@ export const ItemContent = {
     },
     {
       id: '9',
-      destacado:'By Movimiento Consciente',
+      destacado: 'By Movimiento Consciente',
       title: 'Prácticas de yoga',
       description: {
         p1: 'Estas prácticas están destinadas a todo quien que quiera acercarse a su propio conocimiento y descubrimiento.',
@@ -245,22 +244,22 @@ export const ClasesVideoData = {
   alt: 'Mira la clase gratuita',
   title: 'Yoga para transformar tu día',
   description: 'Mira esta clase gratuita y comenzá a practicar.',
-  destacado:'Clase gratuita'
+  destacado: 'Clase gratuita'
 }
 
 
 export const FooternNavigation = [
-    { name: 'Sobre Mí', href: '#' },
-    { name: '¿Qué ofrecemos?', href: '#' },
-    { name: 'Charla gratuita', href: '/' },
-    { name: 'Clase gratuita', href: '#' },
-    { name: 'Comprar tickets', href: '#' },
-    { name: '¿Querés organizar eventos?', href: '#' },
-    { name: 'Sesiones individuales', href: '#' },
-    { name: 'Prácticas de Yoga', href: '#' },
-  ]
+  { name: 'Sobre Mí', href: '#' },
+  { name: '¿Qué ofrecemos?', href: '#' },
+  { name: 'Charla gratuita', href: '/' },
+  { name: 'Clase gratuita', href: '#' },
+  { name: 'Comprar tickets', href: '#' },
+  { name: '¿Querés organizar eventos?', href: '#' },
+  { name: 'Sesiones individuales', href: '#' },
+  { name: 'Prácticas de Yoga', href: '#' },
+]
 
-export const Social= [
+export const Social = [
   {
     name: 'Facebook',
     href: '#',
@@ -322,4 +321,56 @@ export const Social= [
       </svg>
     ),
   },
+]
+
+export const EventsData = [
+  {
+    id: 1,
+    fechaInicio: "25/05/2024",
+    fechaFin: "01/06/2024",
+    título: "Yoga Weeks Retreat",
+    ubicación: "Ibiza"
+  },
+  {
+    id: 2,
+    fechaInicio: "15/06/2024",
+    fechaFin: "22/06/2024",
+    título: "Yoga Weeks Retreat",
+    ubicación: "Ibiza"
+  },
+  {
+    id: 3,
+    fechaInicio: "06/07/2024",
+    fechaFin: "13/07/2024",
+    título: "Yoga Weeks Retreat",
+    ubicación: "Ibiza"
+  },
+  {
+    id: 4,
+    fechaInicio: "29/08/2024",
+    fechaFin: "01/09/2024",
+    título: "Spirit Festival",
+    ubicación: "Mallorca"
+  },
+  {
+    id: 5,
+    fechaInicio: "14/09/2024",
+    fechaFin: "21/09/2024",
+    título: "Yoga Weeks Retreat",
+    ubicación: "Ibiza"
+  },
+  {
+    id: 6,
+    fechaInicio: "28/09/2024",
+    fechaFin: "05/10/2024",
+    título: "INMoveMent Retreat",
+    ubicación: "Mallorca"
+  },
+  {
+    id: 7,
+    fechaInicio: "12/10/2024",
+    fechaFin: "19/10/2024",
+    título: "Yoga Weeks Retreat",
+    ubicación: "Ibiza"
+  }
 ]
